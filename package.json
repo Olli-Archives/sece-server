@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/SteelFace87/sece-server/issues"
   },
-  "homepage": "https://github.com/SteelFace87/sece-server#readme"
+  "homepage": "https://github.com/SteelFace87/sece-server#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0"
+  }
 }
