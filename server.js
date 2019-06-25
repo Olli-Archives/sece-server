@@ -1,5 +1,9 @@
 require('dotenv').config();
 require('./lib/utils/connect')();
+const updateDb = require('./lib/service/updateDb');
+
+
+console.log('proceesss is goo', process.env.TOKEN);
 
 const app = require('./lib/app');
 
